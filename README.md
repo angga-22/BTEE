@@ -3,7 +3,7 @@
 This web-based utility helps you perform quick, "back-of-the-envelope" calculations for both general estimation problems and common system design interview topics. It lets you break down complex problems, document assumptions, and get instant results. Perfect for engineers, product managers, students, and anyone needing fast, reasonable estimates.
 <img width="1539" height="1013" alt="Screenshot 2025-08-16 at 22 33 37" src="https://github.com/user-attachments/assets/0cbd845e-307a-4b57-a065-ee4fbd7c10c9" />
 
-## 🌟 Features
+## Features
 
 - **Custom Formula Estimator:** Define your own estimation problem, add parameters, and write formulas for Fermi problems or any rough calculation.
 - **System Design Use Case Estimator:** Select from common system design topics (Requests Per Second, Storage, Bandwidth, Latency) and get instant calculations with pre-filled examples (e.g., Twitter QPS).
@@ -12,7 +12,7 @@ This web-based utility helps you perform quick, "back-of-the-envelope" calculati
 - **Clear Breakdown:** See the full calculation and trace your steps.
 - **No Backend Needed:** Runs entirely in the browser using HTML, CSS, and JavaScript.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
@@ -20,7 +20,7 @@ This web-based utility helps you perform quick, "back-of-the-envelope" calculati
 
 git clone https://github.com/angga-22/BTEE.git
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository:
    ```bash
@@ -56,7 +56,7 @@ git clone https://github.com/angga-22/BTEE.git
      - Result: ~139,000 requests/sec
 3. **Estimate:** Click "Estimate" to see the result.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 back-of-the-envelope-estimator/
