@@ -1,6 +1,7 @@
 # Back-of-the-Envelope Estimator
 
 This web-based utility helps you perform quick, "back-of-the-envelope" calculations for both general estimation problems and common system design interview topics. It lets you break down complex problems, document assumptions, and get instant results. Perfect for engineers, product managers, students, and anyone needing fast, reasonable estimates.
+<img width="1539" height="1013" alt="Screenshot 2025-08-16 at 22 33 37" src="https://github.com/user-attachments/assets/0cbd845e-307a-4b57-a065-ee4fbd7c10c9" />
 
 ## 🌟 Features
 
