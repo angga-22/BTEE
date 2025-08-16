@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Back-of-the-Envelope Estimator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Back-of-the-Envelope Estimator</h1>
+      <p>A tool for quick and rough calculations for system design and Fermi problems.</p>
+    </header>
+    <main>
+      <div class="card">
+        <h2>Custom Formula Estimator</h2>
+        <input type="text" id="estimation-goal" placeholder="e.g., How many piano tuners are in Chicago?">
+        <div id="parameters-container"></div>
+        <button id="add-parameter-btn">+ Add Parameter</button>
+        <input type="text" id="formula-input"
+          placeholder="e.g., (chicago_population / households) * pianos_per_household">
+        <p class="formula-hint">Use the parameter names from above as variables.</p>
+        <div id="result-output" class="result-value">0</div>
+        <div id="calculation-steps" class="calculation-steps">
+          <p>Your calculation steps will appear here.</p>
+        </div>
+      </div>
+      <div class="card">
+        <h2>System Design Use Case Estimator</h2>
+        <label for="caseSelect">Select Topic:</label>
+        <select id="caseSelect">
+          <option value="rps">Requests Per Second</option>
+          <option value="storage">Storage Needs</option>
+          <option value="bandwidth">Bandwidth</option>
+          <option value="latency">Latency</option>
+        </select>
+        <div id="inputs"></div>
+        <button id="estimateBtn">Estimate</button>
+        <div id="result"></div>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
